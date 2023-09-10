@@ -1,10 +1,10 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Roboto } from "next/font/google";
+import { Montserrat } from "next/font/google";
 
 import Navbar from "@/app/components/Navbar";
 
-const roboto = Roboto({
+const montserrat = Montserrat({
     subsets: ["latin"],
     weight: "400",
 });
@@ -22,7 +22,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body
-                className={`${roboto.className} bg-[#111010] text-white flex flex-col items-center`}
+                className={`${montserrat.className} bg-[#111010] text-white flex flex-col items-center`}
             >
                 <div className=" w-[672px] flex justify-start flex-col min-h-screen">
                     <Navbar />
