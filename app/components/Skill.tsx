@@ -10,7 +10,7 @@ type Props = {
 
 const Skill = ({ name, source, link, isDark }: Props) => {
     return (
-        <div className="flex flex-row justify-between items-center bg-[#262626] m-[8px] p-[10px] rounded-md hover:scale-105 transition-all max-md:w-[200px]">
+        <div className="flex flex-row justify-between items-center bg-[#262626] m-[8px] p-[10px] rounded-md hover:scale-105 transition-all max-md:w-[90px] flex-col">
             {isDark ? (
                 <div className="bg-white rounded-full p-[5px]">
                     <Image
@@ -19,6 +19,7 @@ const Skill = ({ name, source, link, isDark }: Props) => {
                         width="40"
                         height="40"
                         quality={100}
+                        className="max-md:w-[30px] h-[30px]"
                     />
                 </div>
             ) : (
@@ -28,6 +29,7 @@ const Skill = ({ name, source, link, isDark }: Props) => {
                     width="40"
                     height="40"
                     quality={100}
+                    className="max-md:w-[30px] h-[30px]"
                 />
             )}
             <Link
@@ -35,7 +37,7 @@ const Skill = ({ name, source, link, isDark }: Props) => {
                 target="_blank"
                 className="hover:opacity-80 transition-all"
             >
-                <h1 className="text-lg max-md:text-sm">{name}</h1>
+                <h1 className="text-lg max-md:text-sm text-center">{name}</h1>
             </Link>
         </div>
     );
