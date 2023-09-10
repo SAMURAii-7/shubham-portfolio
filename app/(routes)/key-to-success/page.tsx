@@ -7,7 +7,7 @@ const KeyToSuccess = (props: Props) => {
                 You have found the key to success!
             </h1>
             <iframe
-                className="mt-[30px] border-0 max-md:w-[330px] h-[250px]"
+                className="mt-[30px] border-0 max-md:w-[330px] max-md:h-[250px]"
                 width="560"
                 height="315"
                 src="https://www.youtube.com/embed/XxbJw8PrIkc?si=pGd748EWgJFYmdQ0&amp;start=39"
