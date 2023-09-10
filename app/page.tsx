@@ -1,5 +1,7 @@
 import Image from "next/image";
 import SkillSection from "@/app/components/SkillSection";
+import Link from "next/link";
+import MyPic from "@/assets/shubh.jpeg";
 
 export default function Home() {
     return (
@@ -7,18 +9,20 @@ export default function Home() {
             <div className="flex flex-row justify-start items-center">
                 <div>
                     <h1 className="text-2xl font-semibold">
-                        hey, I'm shubham 👋
+                        hey, I'm shubham{" "}
+                        <Link href="/spotify-playlist">👋</Link>
                     </h1>
                     <p className="text-[#d4d4d4] text-[1.05rem] mt-[40px] mr-[50px]">
-                        I'm a software engineer who thrives on crafting robust
-                        full-stack applications and I continuously seek to
-                        expand my skill set by eagerly embracing emerging
-                        technologies.
+                        I'm a{" "}
+                        <Link href="/key-to-success">software engineer</Link>{" "}
+                        who thrives on crafting robust full-stack applications
+                        and I continuously seek to expand my skill set by
+                        eagerly embracing emerging technologies.
                     </p>
                 </div>
                 <div>
                     <Image
-                        src="/shubh.jpeg"
+                        src={MyPic}
                         width={600}
                         height={600}
                         alt="Shubham's Picture"
