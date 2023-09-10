@@ -6,7 +6,7 @@ import Navbar from "@/app/components/Navbar";
 
 const roboto = Roboto({
     subsets: ["latin"],
-    weight: "100",
+    weight: "400",
 });
 
 export const metadata: Metadata = {
