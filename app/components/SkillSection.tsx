@@ -8,7 +8,7 @@ const Skills = (props: Props) => {
     return (
         <div className="mt-[50px]">
             <h1 className="text-[#d4d4d4] pl-[10px]">
-                here are some of the technologies I've worked with:
+                here are some of the technologies I&apos;ve worked with:
             </h1>
             <div className=" grid grid-cols-3">
                 {skills.map((skill) => (

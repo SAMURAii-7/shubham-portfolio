@@ -9,11 +9,11 @@ export default function Home() {
             <div className="flex flex-row justify-start items-center">
                 <div>
                     <h1 className="text-2xl font-semibold">
-                        hey, I'm shubham{" "}
+                        hey, I&apos;m shubham{" "}
                         <Link href="/spotify-playlist">👋</Link>
                     </h1>
                     <p className="text-[#d4d4d4] text-[1.05rem] mt-[40px] mr-[50px]">
-                        I'm a{" "}
+                        I&apos;m a{" "}
                         <Link href="/key-to-success">software engineer</Link>{" "}
                         who thrives on crafting robust full-stack applications
                         and I continuously seek to expand my skill set by

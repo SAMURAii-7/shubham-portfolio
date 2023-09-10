@@ -1,6 +1,6 @@
 type Props = {};
 
-const page = (props: Props) => {
+const SpotifyPlaylist = (props: Props) => {
     return (
         <div className="mt-[25px] flex flex-col justify-center items-center">
             <h1 className="text-2xl font-semibold">
@@ -19,4 +19,4 @@ const page = (props: Props) => {
     );
 };
 
-export default page;
+export default SpotifyPlaylist;
