@@ -24,7 +24,7 @@ export default function RootLayout({
             <body
                 className={`${montserrat.className} bg-[#111010] text-white flex flex-col items-center`}
             >
-                <div className=" w-[672px] flex justify-start flex-col min-h-screen">
+                <div className=" w-[672px] flex justify-start flex-col min-h-screen max-md:w-[300px]">
                     <Navbar />
                     {children}
                 </div>

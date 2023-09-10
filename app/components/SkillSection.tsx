@@ -10,7 +10,7 @@ const Skills = (props: Props) => {
             <h1 className="text-[#d4d4d4] pl-[10px]">
                 here are some of the technologies I&apos;ve worked with:
             </h1>
-            <div className=" grid grid-cols-3">
+            <div className="grid grid-cols-3 max-md:flex flex-col justify-start items-center">
                 {skills.map((skill) => (
                     <Skill
                         key={uuidv4()}
