@@ -7,7 +7,7 @@ type Props = {};
 const ProjectSection = (props: Props) => {
     return (
         <div className="mt-[30px]">
-            <h1 className="text-xl font-semibold pl-[10px] max-md:text-center pl-0">
+            <h1 className="text-xl font-semibold pl-[10px] max-md:text-center max-md:pl-0">
                 check out some of my projects here and many more on my github!
             </h1>
             <div className="flex flex-col justify-center items-center mt-[20px]">

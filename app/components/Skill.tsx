@@ -10,7 +10,7 @@ type Props = {
 
 const Skill = ({ name, source, link, isDark }: Props) => {
     return (
-        <div className="flex flex-row justify-between items-center bg-[#262626] m-[8px] p-[10px] rounded-md hover:scale-105 transition-all max-md:w-[90px] flex-col">
+        <div className="flex flex-row justify-between items-center bg-[#262626] m-[8px] p-[10px] rounded-md hover:scale-105 transition-all max-md:w-[90px] max-md:flex-col">
             {isDark ? (
                 <div className="bg-white rounded-full p-[5px]">
                     <Image
