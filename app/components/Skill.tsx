@@ -19,7 +19,7 @@ const Skill = ({ name, source, link, isDark }: Props) => {
                         width="40"
                         height="40"
                         quality={100}
-                        className="max-md:w-[30px] h-[30px]"
+                        className="max-md:w-[30px] max-md:h-[30px]"
                     />
                 </div>
             ) : (
@@ -29,7 +29,7 @@ const Skill = ({ name, source, link, isDark }: Props) => {
                     width="40"
                     height="40"
                     quality={100}
-                    className="max-md:w-[30px] h-[30px]"
+                    className="max-md:w-[30px] max-md:h-[30px]"
                 />
             )}
             <Link
