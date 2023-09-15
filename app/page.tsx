@@ -57,7 +57,6 @@ export default function Home() {
                     embracing emerging technologies.
                 </p>
             </div>
-
             <SkillSection />
         </main>
     );

@@ -54,7 +54,7 @@ const Header = (props: Props) => {
             <div className="flex flex-row justify-between items-center w-full max-md:w-full">
                 {/* left side links */}
                 <div
-                    className={`flex flex-row justify-start items-center max-md:fixed max-md:left-[-100%] max-md:top-[5rem] max-md:flex-col max-md:w-[300px] max-md:text-center max-md:h-[200px] max-md:border max-md:border-white max-md:justify-center max-md:rounded-[10px] max-md:bg-[#111010] ${
+                    className={`flex flex-row justify-start items-center max-md:absolute max-md:left-[-100%] max-md:top-[5rem] max-md:flex-col max-md:w-[300px] max-md:text-center max-md:h-[200px] max-md:border max-md:border-white max-md:justify-center max-md:rounded-[10px] max-md:bg-[#111010] ${
                         isActive && "max-md:left-auto"
                     }`}
                 >
