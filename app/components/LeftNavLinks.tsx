@@ -4,9 +4,10 @@ import { usePathname } from "next/navigation";
 type Props = {
     link: string;
     linkName: string;
+    handleLinkClick: () => void;
 };
 
-const LeftNavLinks = ({ link, linkName }: Props) => {
+const LeftNavLinks = ({ link, linkName, handleLinkClick }: Props) => {
     const pathName = usePathname();
 
     const isLinkActive = (path: string) => {
@@ -14,13 +15,16 @@ const LeftNavLinks = ({ link, linkName }: Props) => {
     };
 
     return (
-        <div className="m-[15px] ml-0">
+        <div className="m-[10px]">
             <Link
                 href={link}
                 target={linkName === "resume" ? "_blank" : "_self"}
                 className={`${
-                    isLinkActive(link) ? "text-white" : "text-[#a1a1a1]"
+                    isLinkActive(link)
+                        ? "text-white max-md:text-[#a1a1a1]"
+                        : "text-[#a1a1a1]"
                 } hover:text-white text-[1rem] cursor-pointer`}
+                onClick={handleLinkClick}
             >
                 {linkName}
             </Link>

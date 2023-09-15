@@ -14,13 +14,15 @@ const RightNavLinks = ({ link, linkName }: Props) => {
     };
 
     return (
-        <div className="m-[15px] ml-0">
+        <div className="m-[10px]">
             <Link
                 href={link}
                 target="_blank"
                 className={`${
-                    isLinkActive(link) ? "text-white" : "text-[#a1a1a1]"
-                } hover:text-white text-[1rem] cursor-pointer`}
+                    isLinkActive(link)
+                        ? "text-white max-md:text-[#a1a1a1]"
+                        : "text-[#a1a1a1]"
+                } hover:text-white text-[1.2rem] cursor-pointer`}
             >
                 {linkName}
             </Link>
