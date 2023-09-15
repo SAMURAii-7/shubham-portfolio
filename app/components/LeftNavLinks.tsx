@@ -17,6 +17,7 @@ const LeftNavLinks = ({ link, linkName }: Props) => {
         <div className="m-[15px] ml-0">
             <Link
                 href={link}
+                target={linkName === "resume" ? "_blank" : "_self"}
                 className={`${
                     isLinkActive(link) ? "text-white" : "text-[#a1a1a1]"
                 } hover:text-white text-[1rem] cursor-pointer`}
