@@ -13,11 +13,10 @@ export default function Home() {
                         <Link href="/spotify-playlist">👋</Link>
                     </h1>
                     <p className="text-[#d4d4d4] text-[1.05rem] mt-[40px] mr-[50px] pl-[8px]">
-                        I&apos;m a{" "}
-                        <Link href="/key-to-success">software engineer</Link>{" "}
-                        who thrives on crafting robust full-stack applications
-                        and I continuously seek to expand my skill set by
-                        eagerly embracing emerging technologies.
+                        I&apos;m a software engineer who thrives on crafting
+                        robust full-stack applications and I continuously seek
+                        to expand my skill set by eagerly embracing emerging
+                        technologies.
                     </p>
                 </div>
                 <div>
@@ -50,11 +49,9 @@ export default function Home() {
                     <Link href="/spotify-playlist">👋</Link>
                 </h1>
                 <p className="text-[#d4d4d4] text-[1.05rem] mt-[40px] text-center">
-                    I&apos;m a{" "}
-                    <Link href="/key-to-success">software engineer</Link> who
-                    thrives on crafting robust full-stack applications and I
-                    continuously seek to expand my skill set by eagerly
-                    embracing emerging technologies.
+                    I&apos;m a software engineer who thrives on crafting robust
+                    full-stack applications and I continuously seek to expand my
+                    skill set by eagerly embracing emerging technologies.
                 </p>
             </div>
             <SkillSection />
