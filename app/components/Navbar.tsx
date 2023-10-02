@@ -21,6 +21,10 @@ const Header = (props: Props) => {
             linkName: "projects",
         },
         {
+            link: "/open-source",
+            linkName: "open source",
+        },
+        {
             link: "/Shubham-Prasad.pdf",
             linkName: "resume",
         },
