@@ -8,7 +8,7 @@ type Props = {};
 const ProjectSection = (props: Props) => {
     return (
         <div className="mt-[25px]">
-            <h1 className="text-lg font-semibold pl-[10px] max-md:text-center max-md:pl-0">
+            <h1 className="text-lg font-semibold pl-[10px] max-md:text-center max-md:pl-0 max-md:text-base">
                 check out some of my projects here and many more on my{" "}
                 <Link
                     className="underline"
