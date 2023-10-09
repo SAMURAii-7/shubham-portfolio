@@ -1,4 +1,4 @@
-import Skill from "@/app/components/Skill";
+import Skill from "@/app/components/skill-component/Skill";
 import { v4 as uuidv4 } from "uuid";
 import { skills } from "@/assets/skills";
 

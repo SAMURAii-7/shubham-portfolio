@@ -1,5 +1,5 @@
 import Image from "next/image";
-import SkillSection from "@/app/components/SkillSection";
+import SkillSection from "@/app/components/skill-component/SkillSection";
 import Link from "next/link";
 import MyPic from "@/assets/shubh.jpeg";
 

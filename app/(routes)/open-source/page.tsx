@@ -1,4 +1,4 @@
-import OpenSourceSection from "@/app/components/OpenSourceSection";
+import OpenSourceSection from "@/app/components/opensource-component/OpenSourceSection";
 
 type Props = {};
 

@@ -1,4 +1,4 @@
-import ProjectSection from "@/app/components/ProjectSection";
+import ProjectSection from "@/app/components/project-component/ProjectSection";
 
 type Props = {};
 

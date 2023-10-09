@@ -8,16 +8,6 @@ type Props = {};
 const ProjectSection = (props: Props) => {
     return (
         <div className="mt-[25px]">
-            <h1 className="text-lg font-semibold pl-[10px] max-md:text-center max-md:pl-0 max-md:text-base">
-                check out some of my projects here and many more on my{" "}
-                <Link
-                    className="underline"
-                    href="https://github.com/SAMURAii-7?tab=repositories"
-                    target="_blank"
-                >
-                    github
-                </Link>
-            </h1>
             <div className="flex flex-col justify-center items-center mt-[20px]">
                 {projects.map((project) => (
                     <Project
@@ -26,9 +16,20 @@ const ProjectSection = (props: Props) => {
                         description={project.description}
                         link={project.link}
                         github={project.github}
+                        tech={project.tech}
                     />
                 ))}
             </div>
+            <h1 className="text-lg font-semibold pl-[10px] my-[12px] text-center max-md:pl-0 max-md:text-base">
+                ...and many more on my{" "}
+                <Link
+                    className="underline"
+                    href="https://github.com/SAMURAii-7?tab=repositories"
+                    target="_blank"
+                >
+                    github
+                </Link>
+            </h1>
         </div>
     );
 };
