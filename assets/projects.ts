@@ -2,7 +2,7 @@ export const projects = [
     {
         name: "Shopping List",
         description:
-            "A Full Stack web application to store items, create shopping lists and export them as a CSV file",
+            "A Full Stack progressive web application(PWA) to store items, create shopping lists and export them as a CSV file",
         link: "https://create-shopping-list.vercel.app/",
         github: "https://github.com/SAMURAii-7/shopping-list",
         tech: ["react", "node", "express", "mongodb"],
