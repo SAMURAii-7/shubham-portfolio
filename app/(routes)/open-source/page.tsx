@@ -3,11 +3,11 @@ import OpenSourceSection from "@/app/components/opensource-component/OpenSourceS
 type Props = {};
 
 const OpenSourcePage = (props: Props) => {
-    return (
-        <div>
-            <OpenSourceSection />
-        </div>
-    );
+  return (
+    <div>
+      <OpenSourceSection />
+    </div>
+  );
 };
 
 export default OpenSourcePage;
