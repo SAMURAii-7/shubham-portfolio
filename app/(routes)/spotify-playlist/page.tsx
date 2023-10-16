@@ -1,4 +1,10 @@
+import { Metadata } from "next";
+
 type Props = {};
+
+export const metadata: Metadata = {
+  title: "Spotify Playlist | Shubham Prasad",
+};
 
 const SpotifyPlaylist = (props: Props) => {
   return (
