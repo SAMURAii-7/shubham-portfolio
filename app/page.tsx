@@ -14,7 +14,7 @@ export default function Home() {
           <p className="mr-[50px] mt-[40px] pl-[8px] text-[1.05rem] text-[#d4d4d4]">
             I&apos;m a software engineer who thrives on crafting robust
             full-stack applications and I continuously seek to expand my skill
-            set by eagerly embracing emerging technologies.
+            set by eagerly embracing new technologies.
           </p>
         </div>
         <div>
@@ -48,7 +48,7 @@ export default function Home() {
         <p className="mt-[40px] text-center text-[1.05rem] text-[#d4d4d4]">
           I&apos;m a software engineer who thrives on crafting robust full-stack
           applications and I continuously seek to expand my skill set by eagerly
-          embracing emerging technologies.
+          embracing new technologies.
         </p>
       </div>
       <SkillSection />
