@@ -45,6 +45,6 @@ export const projects = [
       "A Java application with GUI made using JavaFX to create, update, view and delete employee records and store them in a MySQL database using XAMPP",
     link: "",
     github: "https://github.com/SAMURAii-7/Emp-Mgmt-Sys",
-    tech: ["Java", "MySQL", "Java FX"],
+    tech: ["Java", "MySQL"],
   },
 ];

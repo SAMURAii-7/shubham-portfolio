@@ -40,7 +40,6 @@ const techIcons: Record<string, React.ReactNode> = {
   Flask: <SiFlask className="m-1 text-lg" />,
   Java: <Image src={JavaLogo} alt="java-icon" width={35} height={35} />,
   MySQL: <SiMysql className="m-1 text-3xl text-[#00758f]" />,
-  "Java FX": <span className="m-1 text-xs text-[#d4d4d4]">JavaFx</span>,
 };
 
 const ProjectTechStack = ({ tech }: Props) => {
@@ -52,13 +51,7 @@ const ProjectTechStack = ({ tech }: Props) => {
           className="m-1 flex flex-row items-center justify-center rounded-3xl bg-[#3d3d3d] p-1"
         >
           {techIcons[t]}
-          <div
-            className={`hidden p-1 text-xs ${
-              t === "Java FX" ? "lg:hidden" : "lg:block"
-            }`}
-          >
-            {t}
-          </div>
+          <div className={"hidden p-1 text-xs lg:block"}>{t}</div>
         </div>
       ))}
     </div>
