@@ -10,7 +10,7 @@ export const projects = [
   {
     name: "E-commerce Platform",
     description:
-      "An E-commerce platform that enables users to search for products, manage their cart by adding, deleting, and adjusting item quantities. Additionally, it offers Google login integration, seamlessly retaining items in the cart from the pre-login session.",
+      "An E-commerce platform that enables users to search for products, manage their cart by adding, deleting, and adjusting item quantities. Additionally, it offers Google login integration, seamlessly retaining items in the cart from the pre-login session",
     link: "https://nextjs-ecommerce-omega-sand.vercel.app",
     github: "https://github.com/SAMURAii-7/nextjs-ecommerce",
     tech: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "Tailwind CSS"],
@@ -19,7 +19,7 @@ export const projects = [
     name: "Network Management System",
     description:
       "A Full-Stack web application which lets users add and delete devices along with their IP Address. Also has Sign Up and Login system with Two-Factor Authentication",
-    link: "https://nms-client.netlify.app/",
+    link: "",
     github: "https://github.com/SAMURAii-7/nms-backend",
     tech: ["React", "Spring Boot", "MongoDB"],
   },
