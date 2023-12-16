@@ -1,7 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
-import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import Navbar from "@/app/components/navbar-component/Navbar";
 
 const montserrat = Montserrat({
@@ -111,7 +111,7 @@ export default function RootLayout({
           <Navbar />
           {children}
         </div>
-        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
