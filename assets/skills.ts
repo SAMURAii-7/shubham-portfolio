@@ -14,20 +14,6 @@ export const skills = [
     isDark: true,
   },
   {
-    name: "Angular",
-    source:
-      "https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg",
-    link: "https://angular.io/",
-    isDark: false,
-  },
-  {
-    name: "Spring Boot",
-    source:
-      "https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original-wordmark.svg",
-    link: "https://spring.io/projects/spring-boot",
-    isDark: false,
-  },
-  {
     name: "Express.js",
     source:
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg",
@@ -39,6 +25,13 @@ export const skills = [
     source:
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-wordmark.svg",
     link: "https://www.java.com/",
+    isDark: false,
+  },
+  {
+    name: "Spring Boot",
+    source:
+      "https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original-wordmark.svg",
+    link: "https://spring.io/projects/spring-boot",
     isDark: false,
   },
   {
@@ -60,6 +53,13 @@ export const skills = [
     source:
       "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
     link: "https://www.mysql.com/",
+    isDark: false,
+  },
+  {
+    name: "Docker",
+    source:
+      "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg",
+    link: "https://www.docker.com/",
     isDark: false,
   },
 ];
