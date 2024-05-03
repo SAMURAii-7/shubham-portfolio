@@ -69,6 +69,9 @@ export const metadata: Metadata = {
     "Shubham Prasad Full Stack Web Developer",
     "Shubham Prasad Full Stack Web Engineer",
     "Shubham Prasad Full Stack Web",
+    "Shubham Prasad NMIT",
+    "Shubham Prasad Nitte Meenakshi Institute of Technology",
+    "Shubham Prasad Capgemini",
   ],
   robots: "index, follow",
   icons: [
@@ -92,7 +95,8 @@ export const metadata: Metadata = {
   ],
   manifest: "/site.webmanifest",
   verification: {
-    google: "u7nSvwqDr2oWOwlJylnp6tDXX9IfaQThVm5fxhCGPgg",
+    // uncomment below if main domain goes back to .vercel.app
+    // google: "u7nSvwqDr2oWOwlJylnp6tDXX9IfaQThVm5fxhCGPgg",
     me: "https://twitter.com/SAMURAii_7",
   },
 };
