@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     title: "Shubham Prasad",
     description:
       "Software Engineer | Building Digital Worlds, One Line of Code at a Time",
-    url: "https://shubhamprasad.vercel.app/",
+    url: "https://shubhamprasad.dev/",
     siteName: "Shubham Prasad",
     type: "website",
     locale: "en_US",
