@@ -13,8 +13,9 @@ export default function Home() {
           </h1>
           <p className="mr-[50px] mt-[40px] pl-[8px] text-[1.05rem] text-[#d4d4d4]">
             I&apos;m a software engineer who thrives on crafting robust
-            full-stack applications and I continuously seek to expand my skill
-            set by eagerly embracing new technologies.
+            full-stack applications. I currently work at Capgemini as a Software
+            Engineer and I continuously seek to expand my skill set by eagerly
+            embracing new technologies.
           </p>
         </div>
         <div>
