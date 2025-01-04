@@ -1,6 +1,7 @@
 "use client";
 
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import LeftNavLinks from "./LeftNavLinks";
 import RightNavLinks from "./RightNavLinks";
 import { v4 as uuidv4 } from "uuid";
@@ -24,10 +25,12 @@ const Header = (props: Props) => {
       link: "/open-source",
       linkName: "open source",
     },
-    {
-      link: "/Resume.pdf",
-      linkName: "resume",
-    },
+    // uncomment this to make it appear in navbar.
+    // add resume in public directory as "Resume.pdf" to make it work again
+    // {
+    //   link: "/Resume.pdf",
+    //   linkName: "resume",
+    // },
   ];
 
   const rightLinks = [
@@ -41,7 +44,7 @@ const Header = (props: Props) => {
     },
     {
       link: "https://twitter.com/SAMURAii_7",
-      linkName: <FaTwitter />,
+      linkName: <FaXTwitter />,
     },
   ];
 
